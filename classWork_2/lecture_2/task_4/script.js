@@ -1,6 +1,6 @@
 function createTable(width, height, color, border) {
     document.write(
-        `<table width=${width}px, height=${height}px> 
+    `<table width=${width}, height=${height}, style="background-color: ${color}; border:${border}px solid black;"> 
         <tr>
             <td>1</td>
             <td>2</td>
@@ -12,4 +12,4 @@ function createTable(width, height, color, border) {
     </table>`)
 }
 
-createTable(200, 100, green, 5)
+createTable(200, 100, "green", 2)
