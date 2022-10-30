@@ -1,0 +1,25 @@
+.container {
+    width: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input, button {
+    margin-top: 20px;
+    min-height: 50;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+/* table {
+    width: 400px;
+    height: 50px;
+} */
+
+td {
+    text-align: center;
+}
