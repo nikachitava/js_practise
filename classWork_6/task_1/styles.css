@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calendar_container {
+    background-color:rgb(230, 216, 198);
+    margin: auto;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid grey;
+    padding: 7px;
+    width: 50px;
+}
