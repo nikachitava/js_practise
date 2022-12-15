@@ -5,8 +5,9 @@
 }
 
 .calendar_container {
+    padding: 20px 0;
     background-color:rgb(230, 216, 198);
-    margin: auto;
+    margin: 20px 0;
 }
 
 table {
@@ -15,7 +16,13 @@ table {
 }
 
 td {
-    border: 1px solid grey;
+    border: 3px solid grey;
     padding: 7px;
-    width: 50px;
+    width: 90px;
+    height: 50px;
+    text-align: center;
+}
+
+.current_date {
+    background-color: green;
 }
