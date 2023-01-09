@@ -1,9 +1,20 @@
-var column = prompt("Enter row amount: ")
-var row = prompt("Enter column amount: ")
 var green = 0;
 var blue = 0;
 var red = 0;
 var yellow = 0;
+
+const startingProgram = setTimeout(startProgram, 3000)
+
+var column
+var row
+
+function startProgram() {
+    column = prompt("Enter row amount: ")
+    row = prompt("Enter column amount: ")
+
+    createTable()
+    countColors()
+}
 
 function createTable() {
     const tbl = document.createElement("table")
@@ -38,16 +49,12 @@ function createTable() {
     document.body.appendChild(tbl)
 }
 
-loadDelayPage()
-
-function loadDelayPage() {
-    setTimeout(createTable(), 3000)
+function countColors() {
+    console.log("Red TD: " + red)
+    console.log("Green TD: " + green)
+    console.log("Blue TD: " + blue)
+    console.log("Yellow TD: " + yellow)
 }
-
-console.log("Red TD: " + red)
-console.log("Green TD: " + green)
-console.log("Blue TD: " + blue)
-console.log("Yellow TD: " + yellow)
 
 function getRandColor() {
     let colors = ["green", "blue", "red", "yellow"]

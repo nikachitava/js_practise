@@ -1,5 +1,5 @@
 const rect = document.getElementById("rect")
-
+// let styleRoot = document.querySelector(':root')
 
 
 document.addEventListener("keydown", e => {
@@ -20,7 +20,6 @@ document.addEventListener("keydown", e => {
             rect.style.height = rect.offsetHeight + 10 + "px"
             rect.classList.remove("backward")
             rect.classList.add("forward")
-            console.log(rect.offsetHeight)
         }
     }
     if(e.key == "ArrowUp") {

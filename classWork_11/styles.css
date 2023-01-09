@@ -5,13 +5,6 @@
           box-sizing: border-box;
 }
 
-:root {
-  --Lop: 0;
-  --Bottom: 0;
-  --Right: 0;
-  --Left: 350px;
-}
-
 .container {
   width: 600px;
   height: 400px;
@@ -25,10 +18,10 @@
   height: 50px;
   background-color: aqua;
   position: absolute;
-  top: var(--Top);
-  left: 350px;
-  bottom: var(--Bottom);
-  right: var(--Right);
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
 }
 
 .forward {
